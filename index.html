@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Logo — Dai Oliveira</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="wrap">
+      <button id="logo" class="logo" aria-label="Clique em Dai Oliveira para receber inspiração">Dai Oliveira</button>
+      <p class="subtitle">Clique em "Dai Oliveira" para uma mensagem de inspiração</p>
+    </main>
+
+    <div id="modal" class="modal" role="dialog" aria-modal="true" aria-hidden="true">
+      <div class="modal-card">
+        <button id="close" class="close" aria-label="Fechar">✕</button>
+        <h2 id="msgTitle">Inspire-se</h2>
+        <p id="msgText"></p>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
