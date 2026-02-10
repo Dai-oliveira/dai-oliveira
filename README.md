@@ -1,6 +1,6 @@
 # Logo personalizado
 
-Pequeno site com um logo estilizado (`Dai Oliveira`). Ao clicar no nome, aparece uma mensagem de inspiração.
+Pequeno site com um logo estilizado (`Daiani Oliveira`). Ao clicar no nome, aparece uma mensagem de inspiração.
 
 Como usar localmente:
 
